@@ -1,0 +1,4 @@
+route_id,route_short_name,route_long_name,route_type,route_color
+G1,Green,Green Line BRT,3,2A9D8F
+R1,R-1,Red Bus Service - NIPA to Tower,3,E63946
+W11,W-11,White Coach - North Karachi to Saddar,3,FFD700

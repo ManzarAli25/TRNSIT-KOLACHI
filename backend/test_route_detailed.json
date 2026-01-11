@@ -1,0 +1,27 @@
+{
+  "locations": [
+    {
+      "lat": 24.995857923626712,
+      "lon": 67.05456593935064,
+      "type": "break",
+      "name": "North Karachi Start Point"
+    },
+    {
+      "lat": 24.861588,
+      "lon": 67.066493,
+      "type": "break",
+      "name": "Fortune Tower Karachi"
+    }
+  ],
+  "costing": "multimodal",
+  "costing_options": {
+    "transit": {
+      "use_bus": 1,
+      "use_rail": 1,
+      "use_transfers": 1
+    },
+    "pedestrian": {
+      "walking_speed": 5.1
+    }
+  }
+}

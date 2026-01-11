@@ -1,0 +1,7 @@
+route_id,service_id,trip_id,trip_headsign,direction_id,shape_id
+R1,WEEKDAY,R1_T1,NIPA to Tower,0,R1_SHAPE1
+R1,WEEKDAY,R1_T2,Tower to NIPA,1,R1_SHAPE2
+W11,WEEKDAY,W11_T1,North Karachi to Saddar,0,W11_SHAPE1
+W11,WEEKDAY,W11_T2,Saddar to North Karachi,1,W11_SHAPE2
+G1,WEEKDAY,G1_T1,Surjani to Numaish,0,G1_SHAPE1
+G1,WEEKDAY,G1_T2,Numaish to Surjani,1,G1_SHAPE2

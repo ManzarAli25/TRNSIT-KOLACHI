@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  valhalla:
+    image: ghcr.io/gis-ops/docker-valhalla/valhalla:latest
+    container_name: trnsit-valhalla
+    ports:
+      - "8002:8002"
+    volumes:
+      - ./valhalla:/custom_files
+    environment:
+      - tile_urls=https://download.geofabrik.de/asia/pakistan-latest.osm.pbf
+    restart: unless-stopped
+    networks:
+      - trnsit-network
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: trnsit-api
+    ports:
+      - "8000:8000"
+    environment:
+      - VALHALLA_URL=http://valhalla:8002
+      - HOST=0.0.0.0
+      - PORT=8000
+    volumes:
+      - ./app:/app/app
+      - ./data:/app/data
+    depends_on:
+      - valhalla
+    restart: unless-stopped
+    networks:
+      - trnsit-network
+
+networks:
+  trnsit-network:
+    driver: bridge

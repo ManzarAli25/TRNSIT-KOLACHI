@@ -1,0 +1,14 @@
+stop_id,stop_name,stop_lat,stop_lon,stop_desc
+S1,Surjani Station,25.0258,67.0697,Green Line BRT Station
+S2,4K Chowrangi,25.0112,67.0654,Green Line BRT Station
+S3,Nagan Chowrangi,24.9625,67.0664,Green Line BRT Station
+S4,Board Office,24.9317,67.0381,Green Line BRT Station
+S5,Numaish,24.8732,67.0321,Green Line BRT Station - Transfer Point
+S6,NIPA Chowrangi,24.9958,67.0546,Major Bus Stop - North Karachi
+S7,University Road,24.9450,67.0650,Bus Stop
+S8,Civic Center,24.9100,67.0700,Major Bus Terminal
+S9,Regal Chowk,24.8850,67.0620,Bus Stop
+S10,Shahrah-e-Faisal,24.8750,67.0500,Bus Stop
+S11,Tower,24.8616,67.0665,Fortune Tower Area - II Chundrigar Road
+S12,Saddar,24.8600,67.0300,Major Bus Terminal
+S13,Empress Market,24.8650,67.0280,Bus Stop
